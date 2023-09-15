@@ -2,7 +2,8 @@
 Clonar repositorio: "git clone https://github.com/HugoAndres23/Curso_Python.git" ó descargar ZIP
 
 # PASO 1:
-Abrir la terminal en la carpeta del proyecto y activar entorno virtual de Python con el siguiente comando: "fastapienv\Scripts\activate"
+Abrir la terminal en la carpeta del proyecto y crear ambiente de python usando el siguiente comando: "python -m venv fastapienv"
+Activar entorno virtual de Python con el siguiente comando: "fastapienv\Scripts\activate" ó "fastapienv\Scripts\activate.bat"
 
 # PASO 2:
 Instalar en el ambiente virtual las dependencias, en la misma terminal ejecutar el siguiente comando: "pip install fastapi[all]"
